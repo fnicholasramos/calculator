@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="output"></div>
+
+        <div class="keys">  
+            <div class="del">
+                <button class="clear btn">AC</button>
+                <button class="backspace btn" data-action="backspace">&#x232B;</button>
+            </div>
+
+
+            <div class="left">
+                <button class="btn numbers" value="7">7</button>
+                <button class="btn numbers" value="8">8</button>
+                <button class="btn numbers" value="9">9</button>
+
+                <button class="operator" value="/">&#247</button> <!-- divide -->
+                
+                <button class="btn numbers" value="4">4</button>
+                <button class="btn numbers" value="5">5</button>
+                <button class="btn numbers" value="6">6</button>
+
+                <button class="operator" value="*">&#215</button> <!-- multiply -->
+
+                <button class="btn numbers" value="1">1</button>
+                <button class="btn numbers" value="2">2</button>
+                <button class="btn numbers" value="3">3</button>
+
+                <button class="operator" value="-">&#8722</button> <!-- minus -->
+
+                <button class="btn numbers" value=".">.</button>
+                <button class="btn numbers" value="0">0</button>
+                <button class="btn equals" value="=">=</button>
+
+                <button class="operator" value="+">&#43</button> <!-- plus -->
+            </div>
+
+        </div>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
